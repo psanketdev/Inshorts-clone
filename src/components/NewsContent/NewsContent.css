@@ -1,0 +1,44 @@
+.downloadMsg {
+  margin-bottom: 30px;
+  padding: 8px 32px;
+  background: #f44336;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.downloadMsg p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.downloadMsg img {
+  width: 120px;
+}
+
+.btn.css-1w1rijm-MuiButtonBase-root-MuiButton-root {
+  border-radius: 3px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  cursor: pointer;
+  display: flex;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  justify-content: center;
+  margin: 32px auto;
+  padding: 6px 10px;
+  text-align: center;
+  width: 130px;
+  text-transform: capitalize;
+  color: #808290;
+}
+
+
+@media (max-width: 995px) {
+  .downloadMsg {
+    display: none;
+  }
+}
+
